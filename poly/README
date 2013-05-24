@@ -1,0 +1,36 @@
+usage: 
+input coefficient & power  pair for each polynomial
+output the sum of two polynomials
+
+Example1
+input:
+1 0 2 1 1 2 #stands for 1*x^0+2*x^1+1*x^2
+9 0 1 1 #stands for 9*x^0+1*x^1
+output:
+10*x^0+ 3*x^1+ 1*x^2
+
+Example2
+input:
+2 2 3 4 
+1 2 3 4
+output:
+3*x^2+ 6*x^8
+
+Example3
+input:
+1 10 1 1
+1 9 1 8
+output:
+1*x^1+ 1*x^8+ 1*x^9+ 1*x^10
+
+
+#update
+now you can enter in a more complicated way 
+
+unix> ./poly x
+1*x^0+2*x^1+1*x^2
+9*x^0+1*x^1
+
+output:
+10*x^0+ 3*x^1+ 1*x^2
+

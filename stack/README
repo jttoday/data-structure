@@ -1,0 +1,18 @@
+problem 3:
+input a infix expression and tranfer it into suffix expression
+Example:
+
+input:
+(a+b)*(c-d*e)^f-(g/h+i)
+output:
+a b +   c d e * -  f ^ *  g h / i + - 
+
+
+problem 4:
+input a suffix expression and calculate its value
+Example:
+
+input:
+1 2 + 3 4 5 * - 2 ^ * 6 7 / 8 + -
+output:
+858.143

@@ -1,0 +1,18 @@
+Queue
+Member functions:
+
+(constructor) Construct queue 
+
+empty(void) Test whether container is empty 
+
+elemType front(void) Access next element 
+
+elemType back(void) Access last element 
+
+void push(const elemType  &elem) Insert element 
+
+void pop(void) Delete next element 
+
+void enqueue(const elemType &elem) Insert element
+
+elemType dequeue(void) Delete next element and return it
